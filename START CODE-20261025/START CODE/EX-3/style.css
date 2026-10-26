@@ -1,0 +1,26 @@
+/* TODO */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    background-color: #ff77c6;
+    color: #ffffff;
+    border: 6px solid #d962a8;
+    border-radius: 35px;
+    padding: 20px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2 ease;
+}
+
+.btn:hover{
+    background-color: #a64d79;
+    border-color: #662746;
+}
